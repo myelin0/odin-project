@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+--button-color:#3882f6;
+}
+
+body{
+    font-family:poppins;
+    margin:0;
+}
+
+header{
+    background: #1F2937;
+    color: white;
+    padding:10px 100px;
+}
+
+.nav-links a {
+    text-decoration:none;
+    color:white;
+    padding-left:20px;
+    
+}
+
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.nav-links {
+    display:flex;
+    
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.awesome{
+    margin:100px 0;
+    display:flex;    
+    align-items: center;
+}
+
+.awesome-left{
+    padding-right:30px;
+}
+
+h1{
+    font: size 48px;
+    font-weight:bolder;
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+.awesome p{
+   margin:0 auto;
+}
+
+.sign-up{
+    padding-top:0;
+    margin-top:0;
+    background-color:var(--button-color);
+    color:white;
+    font-weight:bold;
+    padding:5px 30px;
+    border-radius:7px;
+
+}
+
+.main{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    margin:30px 100px 60px 100px;
+}
+
+ul{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+}
+
+
+img{
+    width:150px;
+    height:120px;
+    border-radius:10px;
+}
+
+.albania{
+    width:300px;
+    height:200px;
+    border-radius:10px;
+}
+}
+
+h2{
+    display:flex;
+    justify-content: center;
+    font-weight:bolder;
+}
+
+.quote{ 
+    background-color:#e5e7eb;
+    font-style: italic;
+    text-align:justify;
+    font-size:1.5em;
+    padding:60px 100px;
+}
+
+cite{
+    font-weight:bold;
+    text-align:center;
+    display:flex;
+    justify-content: flex-end;
+    padding-right:40px;
+   
+ }
+
+ .cta{
+     background: var(--button-color);
+     color:white;
+     display:flex;
+     justify-content:space-between;
+     margin:70px 100px;
+     border-radius:10px;
+     padding: 30px 30px;
+ }
+
+.left-cta p{
+    margin-top:0;
+}
+
+h3{
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+.cta-button{
+     color:white;
+     border:white solid 2px;
+     background: var(--button-color);
+     padding:1px 30px;
+     margin:20px 30px;
+     border-radius: 10px;
+     font-size:15px;
+     font-weight: bold;
+}
+
+footer{
+    background: #1F2937;
+    color:white;
+    text-align: center;
+}
+
+.creators{
+       padding:30px 200px;
+       display:flex;
+       flex-wrap:wrap;
+       justify-content: center;
+}
